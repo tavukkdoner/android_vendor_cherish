@@ -152,9 +152,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
-ART_BUILD_TARGET_NDEBUG := false
+ART_BUILD_TARGET_NDEBUG := true
 ART_BUILD_TARGET_DEBUG := false
-ART_BUILD_HOST_NDEBUG := false
+ART_BUILD_HOST_NDEBUG := true
 ART_BUILD_HOST_DEBUG := false
 
 # Do not include art debug targets
